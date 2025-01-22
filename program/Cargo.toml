@@ -22,7 +22,7 @@ name = "raydium_amm"
 crate-type = ["cdylib", "lib"]
 
 [dependencies]
-solana-program = "<1.17.0"
+solana-program = "1.18.26"
 spl-token = { version = "4.0.0", features = ["no-entrypoint"] }
 spl-associated-token-account = { version = "2.2.0", features = [
     "no-entrypoint",
@@ -42,7 +42,7 @@ num-derive = "0.3"
 num-traits = "0.2.12"
 bytemuck = { version = "1.4.0" }
 safe-transmute = "0.11.0"
-thiserror = "1.0.20"
+thiserror = "2"
 uint = "0.9.5"
 
 [dev-dependencies]
